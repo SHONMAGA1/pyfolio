@@ -1,0 +1,113 @@
+<!Doctype html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1">
+<head>
+<title>Portfolio</title>
+</head>
+<body>
+<div class="h2">
+<h2>Project portfolio</h2>
+</div>
+<div class="p1">
+<p>list of all my projects</p>
+</div>
+<nav>
+<ol>
+<li>E-commerce</li>
+<li>Webpage</li>
+<li>Python,calculator</li>
+<li>Python,calendar</li>
+</ol>
+</nav>
+<br>
+<div class="E-commerce">
+<section id="E-commerce">
+<a href="https://www.E-commerce.com"><button type="b1">E-commerce</a>
+</section>
+</div>
+<br>
+<div class="Webpage">
+<section id="Webpage">
+<a href="https://www.Webpage.com"><button type="b2">Webpage</a>
+</section>
+</div>
+<br>
+<div class="calculator">
+<section id="Python.calculator">
+<a href="https://www.Python,calculator"><button type="b3">Python,calculator</a>
+</section>
+</div>
+<br>
+<div class="calendar">
+<section id="Python.calendar">
+<a href="https://www.Python,calendar"><button type="b4">Python,calendar</button></a>
+</section>
+</div>
+<style>
+.h2
+ {padding:5px;
+border-radius:9px;
+background-color:#ddd;
+margin:10px;
+text-align:center;
+border:solid 2px black;
+}
+
+.p1
+{text-align:center;}
+
+.E-commerce
+{padding:20px;
+  margin:10px;
+  item-align:center;
+  background-color:#ddd;
+  border-radius:10px;
+  text-align:center;
+  border:solid 2px black;
+}
+.Webpage
+{padding:20px;
+  margin:10px;
+  item-align:center;
+  text-align:center;
+  background-color:#ddd;
+  border-radius:10px;
+  border:solid 2px black;
+}
+
+.calculator
+{padding:20px;
+  margin:10px;
+  item-align:center;
+  text-align:center;
+  background-color:#ddd;
+  border-radius:10px;
+  border:solid 2px black;
+}
+
+.calendar
+{padding:20px;
+  margin:10px;
+  item-align:center;
+  text-align:center;
+  background-color:#ddd;
+  border-radius:10px;
+  border:solid 2px black;
+  background-color:#ddd;
+}
+
+button
+{background-color:#ddd;}
+
+a
+{color:black;}
+
+body
+{background-color:#282c34;}
+
+li
+{color:white;}
+p
+{color:white;}
+</style>
